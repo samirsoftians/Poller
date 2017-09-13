@@ -1,0 +1,186 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.softians.poller.fragments.fragment_question">
+
+        <!-- TODO: Update blank fragment layout -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="2dp"
+            android:padding="2dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="6dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:contentPadding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/taimedateRelativelayoutID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtDatdID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="26/08/2017"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtTImeID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:hint="10:45 am"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:hint="Cricket"
+                    android:id="@+id/txtsetID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/taimedateRelativelayoutID"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="25dp"
+
+                    android:textColor="@color/red"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/card_viewsecond"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/card_view"-->
+            <!--android:layout_marginLeft="6dp"-->
+            <!--android:layout_marginRight="6dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:padding="20dp"-->
+            <!--card_view:cardCornerRadius="4dp"-->
+            <!--card_view:cardElevation="6dp"-->
+            <!--card_view:cardUseCompatPadding="true"-->
+            <!--card_view:contentPadding="10dp">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/taimedateRelativelayoutIDsecond"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtDatdIDsecond"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="26/08/2017"-->
+                        <!--android:textColor="@color/colorPrimary"-->
+                        <!--android:textStyle="bold" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtTImeIDsecond"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:text="10:56 AM"-->
+                        <!--android:textColor="@color/colorPrimary"-->
+                        <!--android:textStyle="bold" />-->
+                <!--</RelativeLayout>-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/txtsetIDsecond"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@+id/taimedateRelativelayoutIDsecond"-->
+                    <!--android:layout_marginLeft="30dp"-->
+                    <!--android:layout_marginRight="25dp"-->
+                    <!--android:text="Java technology"-->
+                    <!--android:textColor="@color/blurgGreen"-->
+                    <!--android:textStyle="bold" />-->
+            <!--</RelativeLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/card_viewsecondthird"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/card_viewsecond"-->
+            <!--android:layout_marginLeft="6dp"-->
+            <!--android:layout_marginRight="6dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:padding="20dp"-->
+            <!--card_view:cardCornerRadius="4dp"-->
+            <!--card_view:cardElevation="6dp"-->
+            <!--card_view:cardUseCompatPadding="true"-->
+            <!--card_view:contentPadding="10dp">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/taimedateRelativelayoutIDthird"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtDatdIDthird"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="26/08/2017"-->
+                        <!--android:textColor="@color/colorPrimary"-->
+                        <!--android:textStyle="bold" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txtTImeIDthird"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:text="10:56 AM"-->
+                        <!--android:textColor="@color/colorPrimary"-->
+                        <!--android:textStyle="bold" />-->
+                <!--</RelativeLayout>-->
+
+
+                <!--<TextView-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:id="@+id/txtsetIDthird"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@+id/taimedateRelativelayoutIDthird"-->
+                    <!--android:layout_marginLeft="30dp"-->
+                    <!--android:layout_marginRight="25dp"-->
+                    <!--android:text="PHP technology"-->
+                    <!--android:textStyle="bold" />-->
+            <!--</RelativeLayout>-->
+        <!--</android.support.v7.widget.CardView>-->
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

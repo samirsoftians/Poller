@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_opt"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="100dp"
+            android:id="@+id/onaddi"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/adidas1"
+            android:layout_gravity="center">
+
+        </ImageView>
+    </LinearLayout>
+
+
+
+    <EditText
+
+        android:background="#00000000"
+        android:id="@+id/emailid2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.025"
+        android:padding="12dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="150dp"
+        android:hint="Enter E-mail"
+        android:inputType="textEmailAddress"
+        />
+    <View
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/emailid2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="#fff"
+        />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:layout_margin="25dp"
+android:background="@drawable/angle"
+        android:textColor="#0e0e0e"
+        android:layout_below="@+id/emailid2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+
+</RelativeLayout>

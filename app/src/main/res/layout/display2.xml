@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:fillViewport="true">
+
+    <!--<android.support.v7.widget.Toolbar-->
+
+
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:elevation="6dp"-->
+        <!--android:minHeight="?attr/actionBarSize">-->
+    <!--</android.support.v7.widget.Toolbar>-->
+
+
+
+    <LinearLayout
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <Button
+
+                android:layout_weight="1"
+
+                android:layout_gravity="top"
+                android:textColor="#3F51B5"
+                android:background="#fd9401"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:id="@+id/back"
+
+                android:text="Back" />
+
+            <Button
+
+                android:layout_weight="1"
+
+                android:id="@+id/finished"
+                android:layout_gravity="top"
+                android:textColor="#3F51B5"
+                android:background="#fd9401"
+
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+
+                android:text="Finish" />
+        </LinearLayout>
+
+
+
+        <!--<TableLayout-->
+            <!--android:id="@+id/tblTop10List"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="29dp"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_marginTop="23dp"-->
+            <!--android:stretchColumns="*" >-->
+
+            <!--<TableRow-->
+                <!--android:id="@+id/tableRow1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:weightSum="1" >-->
+
+                <!--&lt;!&ndash;<TextClock&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/angle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/timer"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="30dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:paddingLeft="8dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="HELLO THERE"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textColor="#000"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_column="0"&ndash;&gt;-->
+                    <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+
+            <!--</TableRow>-->
+        <!--</TableLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<TableLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+            <!--<TableRow-->
+                <!--android:weightSum="1"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent">-->
+
+
+                <!--<TextClock-->
+                    <!--android:gravity="center"-->
+                    <!--android:id="@+id/textClock"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="0"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textSize="20dp" />-->
+
+
+                <!--<TextView-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:id="@+id/textView3"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_column="2"-->
+                    <!--android:text="Finish"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textSize="20dp" />-->
+
+            <!--</TableRow>-->
+
+            <!--</TableLayout>-->
+
+        <!--</LinearLayout>-->
+
+
+
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView2"
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

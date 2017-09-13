@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3eaf1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:text="Almost there!" />
+
+        <TextView
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:text="Create your account." />
+
+    </LinearLayout>
+
+
+    <!--<com.facebook.login.widget.LoginButton-->
+        <!--android:id="@+id/login_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:visibility="gone" />-->
+
+    <!--<com.facebook.login.widget.LoginButton-->
+
+
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:id="@+id/facebook_login_button"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="36dp"-->
+        <!--android:background="@drawable/buttonstyle"-->
+        <!--android:onClick="onClick"-->
+        <!--android:text="Sign up with Facebook"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textStyle="bold" />-->
+
+
+
+
+
+
+    <!--<Button-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:id="@+id/google"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="25dp"-->
+        <!--android:background="@drawable/googlebutton"-->
+        <!--android:onClick="onClick"-->
+        <!--android:text="Sign up with google"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textStyle="bold" />-->
+
+
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:text="Or via E-mail"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="00dp"
+        android:textAlignment="center"
+
+        android:background="#000"
+        />
+
+
+    <EditText
+        android:hint="Name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Email"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:hint="Pasword"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center|bottom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/angle"
+        android:text="Save " />
+
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
